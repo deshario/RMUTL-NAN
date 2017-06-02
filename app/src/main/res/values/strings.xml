@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">RMUTLNAN</string>
+    <string-array name="listview_longclick">
+        <item><b>ปรับปรุงข้อมูล</b></item>
+        <item><b>ลบข้อมูล</b></item>
+    </string-array>
+    <string-array name="prefix_names">
+        <item>กรุณาเลือกคำนำหน้า</item>
+        <item>นาย</item>
+        <item>นาง</item>
+        <item>น.ส</item>
+    </string-array>
+    <string-array name="faculties_names">
+        <item>กรุณาเลือกสาขาวิชา</item>
+        <item>สาขาศิลปศาสตร์</item>
+        <item>สาขาการบัญชี</item>
+        <item>สาขาบริหารธุรกิจ</item>
+    </string-array>
+</resources>

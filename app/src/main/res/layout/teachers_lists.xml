@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/title"
+    android:textStyle="bold"
+    android:textAlignment="center"
+    android:textSize="20sp"
+    android:textColor="@color/colorPrimaryDark"
+    android:padding="5dp"
+    android:text="ข้อมูลอาจารย์"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimaryDark"
+        />
+
+    <!--<ImageView-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="200dp"-->
+        <!--android:background="@color/success_bootstrap"-->
+        <!--android:id="@+id/profile_img"/>-->
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_img"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:scaleType="fitCenter"
+        app:riv_corner_radius="30dip"
+        app:riv_border_width="2dip"
+        app:riv_border_color="@color/primary_bootstrap"
+        app:riv_mutate_background="true"
+        app:riv_oval="false"
+        android:layout_height="200dp"
+        android:layout_width="200dp" />
+
+
+    <!--<TextView-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/subtitle"-->
+    <!--android:textSize="18sp"-->
+    <!--android:text="Subtitle"/>-->
+
+    <TextView
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/prefix_text"
+        android:text="Prefix"
+        android:textColor="@color/primary_bootstrap"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_text"
+        android:text="Name"
+        android:textColor="@color/primary_bootstrap"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/surname_text"
+        android:text="Surname"
+        android:textColor="@color/primary_bootstrap"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sex_text"
+        android:text="Sex"
+        android:textColor="@color/primary_bootstrap"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/faculty_text"
+        android:text="Faculty"
+        android:textColor="@color/primary_bootstrap"/>
+
+</LinearLayout>

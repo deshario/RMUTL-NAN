@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/layoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/sliding_menu_bg" >
+    </RelativeLayout>
+
+    <View
+        android:layout_below="@+id/layoutTop"
+        android:layout_marginTop="10dp"
+        android:id="@+id/bg_line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/white" />
+
+    <RelativeLayout
+        android:id="@+id/layoutBottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/layoutTop"
+        android:background="@color/dot_light_screen1" >
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_info_outline_white_24dp"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="ชื่อสกุล : นาย ธีระพันธ์ ทองสุข" />
+
+        </LinearLayout>
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/l1"
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/white" />
+
+        <LinearLayout
+            android:id="@+id/l2"
+            android:layout_below="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_info_outline_white_24dp"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="รหัสนักศึกษา : 56341204036-9" />
+
+        </LinearLayout>
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/l2"
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/white" />
+
+        <LinearLayout
+            android:id="@+id/l3"
+            android:layout_below="@+id/l2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_info_outline_white_24dp"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="สาขาระบบสารสนเทศทางคอมพิวเตอร์" />
+
+        </LinearLayout>
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/l3"
+            android:id="@+id/line3"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/white" />
+
+        <LinearLayout
+            android:id="@+id/l4"
+            android:layout_below="@+id/l3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_info_outline_white_24dp"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="คณะบริหารธุรกิจและศิลปะศาสตร์" />
+
+        </LinearLayout>
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/l4"
+            android:id="@+id/line4"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/white" />
+
+        <LinearLayout
+            android:id="@+id/l5"
+            android:layout_below="@+id/l4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_info_outline_white_24dp"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="ติดต่อ : " />
+
+            <ImageView
+                android:id="@+id/fb"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center|center_vertical"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/facebook"/>
+
+            <ImageView
+                android:id="@+id/mail"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center|center_vertical"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/gmail"/>
+
+            <ImageView
+                android:id="@+id/callnow"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center|center_vertical"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@mipmap/caller"/>
+
+        </LinearLayout>
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/l5"
+            android:id="@+id/line5"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/white" />
+
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_above="@id/layoutBottom"
+        android:layout_marginBottom="-40dp"
+        android:layout_marginLeft="20dp"
+        android:adjustViewBounds="true" >
+
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/circular_image_view"
+            android:layout_gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/developer1"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1dp"
+            android:layout_toRightOf="@+id/circular_image_view"
+            android:singleLine="true"
+            android:text="นาย ธีระพันธ์ ทองสุข"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:singleLine="true"
+            android:text="นักศึกษา / สารสนเทศ ปีที่4"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</RelativeLayout>
